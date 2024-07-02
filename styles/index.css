@@ -1,0 +1,96 @@
+/*
+
+
+
+*/
+
+@font-face {
+    font-family: 'TitleFont';
+    src: url('../fonts/SilkRemington-SBold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'DescriptionFont';
+    src: url('../fonts/JMH\ Typewriter.ttf') format('truetype');
+
+}
+
+@font-face {
+    font-family: 'lotrOldElvishFont';
+    src: url('../fonts/elvish\ ring\ nfi.ttf') format('truetype');
+}
+
+@keyframes fadeOutAnim {
+    0% {
+        opacity: 1;
+        transform: scale(1);
+    }
+    100% {
+        opacity: 0;
+        transform: scale(1);
+    }
+}
+
+body {
+    background-image: url('/images/bg_image.jpg');
+}
+
+.fade-out {
+    animation: fadeOutAnim 2s ease 0s 1 normal forwards;
+}
+
+.fade-in {
+    animation: fadeOutAnim 2s ease 0s 1 normal backwards;
+}
+
+.introBodyHeader {
+    font-weight: bold;
+    color:rgb(24, 55, 63);
+}
+
+.introBodyHeader h1 {
+
+    font-size: 6rem;
+    font-family:'TitleFont';
+    text-align: center;
+}
+
+.introBodyHeader h2 {
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'DescriptionFont'
+}
+
+.introBodyHeader a:visited {
+    color: blue;
+}
+.spacerDiv {
+    height: 5vh;
+}
+
+a {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+
+.mainTitleHeader a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.mainTitleHeader a:hover {
+    color: inherit;
+}
+
+.mainTitleHeader a:visited {
+    color: inherit;
+}
+
+.mainTitleHeader a:active {
+    color: inherit
+}
+
+.footerClass footer {
+    position: absolute;
+    bottom: 0%
+}
