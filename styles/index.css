@@ -31,7 +31,7 @@
 }
 
 body {
-    background-image: url('/images/bg_image.jpg');
+    background-color: black;
 }
 
 .fade-out {
