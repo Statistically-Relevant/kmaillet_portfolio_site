@@ -1,6 +1,6 @@
 /*
 
-
+ At-rule Definitions
 
 */
 
@@ -8,6 +8,7 @@
     font-family: 'TitleFont';
     src: url('../fonts/BaskervvilleSC-Regular.ttf') format('truetype');
 }
+
 @font-face {
     font-family: 'DescriptionFont';
     src: url('../fonts/JMH\ Typewriter.ttf') format('truetype');
@@ -30,8 +31,17 @@
     }
 }
 
+
+/* 
+
+Generic Settings 
+
+*/
+
+
+/* Bacground color gradiant and set sizing for full viewport as well as maintain so that the bg scrolls with the user */
 body {
-    background: linear-gradient(black, white);
+    background: linear-gradient(black, rgb(10, 53, 172));
     height: 100vh;
     width: 100vw;
 }
@@ -57,6 +67,18 @@ body {
         font-family:'TitleFont';
         text-align: center;
     }
+
+    .introBodyHeader a {
+        color: rgb(17, 137, 192);
+        font-size: 3rem;
+    }    
+
+    .mainTitleHeader a, .mainTitleHeader a:hover, .mainTitleHeader a:active, .mainTitleHeader a:visited {
+        color: inherit;
+        text-decoration: none;
+        font-size: 6rem;
+    }
+    
 }
 
 /* Mobile Devices */
@@ -67,28 +89,21 @@ body {
         font-family:'TitleFont';
         text-align: center;
     }
+    .introBodyHeader a {
+        color: rgb(17, 137, 192);
+        font-size: 1.5rem;
+    } 
+
+    .mainTitleHeader a, .mainTitleHeader a:hover, .mainTitleHeader a:active, .mainTitleHeader a:visited {
+        color: inherit;
+        text-decoration: none;
+        font-size: 3rem;
+    }
+    
 }
 
-.introBodyHeader a {
-    color: rgba(0, 0, 0, 0);
-}
-
-
-.mainTitleHeader a {
-    color: inherit;
-    text-decoration: none;
-}
-
-.mainTitleHeader a:hover {
-    color: inherit;
-}
-
-.mainTitleHeader a:visited {
-    color: inherit;
-}
-
-.mainTitleHeader a:active {
-    color: inherit
+.introBodyHeader h2 {
+    text-align: center;
 }
 
 .footerClass footer {
@@ -96,3 +111,6 @@ body {
     bottom: 0%
 }
 
+.spacerDiv {
+    margin: 3em;
+}
