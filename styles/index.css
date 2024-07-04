@@ -62,8 +62,6 @@ body {
 /* Desktop Devices */
 @media screen and (min-width: 1000px) {
     .introBodyHeader h1 {
-
-        font-size: 6rem;
         font-family:'TitleFont';
         text-align: center;
     }
@@ -84,8 +82,6 @@ body {
 /* Mobile Devices */
 @media screen and (max-width: 1000px) {
     .introBodyHeader h1 {
-
-        font-size: 3rem;
         font-family:'TitleFont';
         text-align: center;
     }
