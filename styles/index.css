@@ -70,12 +70,6 @@ body {
     color:rgb(24, 55, 63);
 }
 
-/* Generic styling for H2 within Body */
-.introBodyHeader h2 {
-    text-align: center;
-    background-color:rgb(136, 144, 163);
-}
-
 /* Ensure the footer always remains at the bottom of the page without exception. */
 .footerClass footer {
     position: absolute;
@@ -84,8 +78,10 @@ body {
 
 /* Generic Main Title Background Styling */
 .mainTitleHeader {
-    background-color:rgb(136, 144, 163);
+    background-image: url(../images/bg_image.jpg);
+    background-position: top 25% center;
 }
+
 
 /* Desktop Devices */
 @media screen and (min-width: 1200px) {
@@ -98,7 +94,6 @@ body {
 
     /* Link styling for all <a> elements in the Header 1 & 2 within body */
     .introBodyHeader a {
-        color: rgb(17, 137, 192);
         font-size: 3rem;
     }    
 
@@ -118,8 +113,29 @@ body {
     .introBodyHeader h2 {
         margin-left: 25vw;
         margin-right: 25vw;
-    }   
+    } 
+
+    /* Generic styling for H2 within Body */
+    .introBodyHeader1 h2 {
+        text-align: center;
+        background-image: url(../images/bg_image.jpg);
+        background-position: top 50% center;
+    }
+
+    /* Generic styling for H2 within Body */
+    .introBodyHeader2 h2 {
+        text-align: center;
+        background-image: url(../images/bg_image.jpg);
+        background-position: top 60% center;
+    }  
+
+    /* Font coloring for the menu options */
+    .introBodyHeader a {
+        color: rgb(255, 255, 255);
+        text-shadow: 2px 3px black;
+    }
 }
+
 
 
 
@@ -158,5 +174,25 @@ body {
         margin-left: 25vw;
         margin-right: 25vw;
     }   
+
+    /* Generic styling for H2 within Body */
+    .introBodyHeader1 h2 {
+        text-align: center;
+        background-image: url(../images/bg_image.jpg);
+        background-position: top 50% center;
+    }
+
+    /* Generic styling for H2 within Body */
+    .introBodyHeader2 h2 {
+        text-align: center;
+        background-image: url(../images/bg_image.jpg);
+        background-position: top 60% center;
+    }  
+
+    /* Font coloring for the menu options */
+    .introBodyHeader a {
+        color: rgb(255, 255, 255);
+        text-shadow: 2px 3px black;
+    }
     
 }
