@@ -162,6 +162,8 @@ body {
         color: inherit;
         text-decoration: none;
         font-size: 3rem;
+        text-align: center;
+        vertical-align: middle;
     }
 
     /* Spacer for between links */
