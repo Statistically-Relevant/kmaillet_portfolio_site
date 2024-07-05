@@ -181,12 +181,12 @@ body {
 
     /* Generic styling for Fullstack heading (H2) within Body */
     .fullstackHeader h2 {
-        text-align: center;
+        text-align: center !important;
     }
 
     /* Generic styling for Tutoring heading (H2) within Body */
     .tutoringHeader h2 {
-        text-align: center;
+        text-align: center !important;
     }  
 
     /* Font coloring for the menu options */
