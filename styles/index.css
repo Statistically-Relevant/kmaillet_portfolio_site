@@ -134,6 +134,11 @@ body {
         color: rgb(255, 255, 255);
         text-shadow: 2px 3px black;
     }
+
+    .mainTitleHeader h1 {
+        text-align: center;
+
+    }
 }
 
 
@@ -162,8 +167,6 @@ body {
         color: inherit;
         text-decoration: none;
         font-size: 3rem;
-        text-align: center;
-        vertical-align: middle;
     }
 
     /* Spacer for between links */
@@ -201,4 +204,8 @@ body {
         height: 25vh;
     }
     
+    .mainTitleHeader h1 {
+        text-align: center;
+        vertical-align: middle;
+    }
 }
