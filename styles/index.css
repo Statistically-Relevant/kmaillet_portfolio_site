@@ -78,8 +78,10 @@ body {
     bottom: 0%
 }
 
-
-
+/* Generic Main Title Background Styling */
+.mainTitleHeader {
+    background-color:rgb(136, 144, 163);
+}
 
 /* Desktop Devices */
 @media screen and (min-width: 1200px) {
@@ -96,7 +98,7 @@ body {
         font-size: 3rem;
     }    
 
-    /* Styling for the main title <a> element to remove all visible color alterations for the title "Kyle Maillet" */
+    /* Styling for the main title <a> element to remove all visible color alterations for the title "Kyle Maillet" and scale its size */
     .mainTitleHeader a, .mainTitleHeader a:hover, .mainTitleHeader a:active, .mainTitleHeader a:visited {
         color: inherit;
         text-decoration: none;
@@ -105,7 +107,7 @@ body {
 
     /* Spacer for between links */
     .spacerDiv {
-        margin: 6em;
+        margin: 6rem;
     }
     
 }
@@ -130,7 +132,7 @@ body {
         font-size: 1.5rem;
     } 
 
-    /* Styling for the main title <a> element to remove all visible color alterations for the title "Kyle Maillet" */
+    /* Styling for the main title <a> element to remove all visible color alterations for the title "Kyle Maillet" and scale its size */
     .mainTitleHeader a, .mainTitleHeader a:hover, .mainTitleHeader a:active, .mainTitleHeader a:visited {
         color: inherit;
         text-decoration: none;
