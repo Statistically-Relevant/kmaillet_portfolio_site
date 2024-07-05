@@ -70,6 +70,7 @@ body {
 /* Generic styling for H2 within Body */
 .introBodyHeader h2 {
     text-align: center;
+    background-color:rgb(136, 144, 163);
 }
 
 /* Ensure the footer always remains at the bottom of the page without exception. */
@@ -109,7 +110,11 @@ body {
     .spacerDiv {
         margin: 6rem;
     }
-    
+
+    .introBodyHeader h2 {
+        margin-left: 25vw;
+        margin-right: 25vw;
+    }   
 }
 
 
@@ -143,5 +148,10 @@ body {
     .spacerDiv {
         margin: 6em;
     }
+    /* Styles the h2 background-color to not take up the whole screen */
+    .introBodyHeader h2 {
+        margin-left: 25vw;
+        margin-right: 25vw;
+    }   
     
 }
