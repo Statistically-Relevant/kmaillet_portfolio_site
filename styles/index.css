@@ -83,6 +83,9 @@ body {
 }
 
 
+
+
+
 /* Desktop Devices */
 @media screen and (min-width: 1200px) {
 
@@ -115,29 +118,24 @@ body {
         margin-right: 25vw;
     } 
 
-    /* Generic styling for H2 within Body */
-    .introBodyHeader1 h2 {
+    /* Generic styling for Fullstack heading (H2) within Body */
+    .fullstackHeader h2 {
         text-align: center;
-        background-image: url(../images/bg_image.jpg);
-        background-position: top 50% center;
     }
 
-    /* Generic styling for H2 within Body */
-    .introBodyHeader2 h2 {
+    /* Generic styling for tutoring heading (H2) within Body */
+    .tutoringHeader h2 {
         text-align: center;
-        background-image: url(../images/bg_image.jpg);
-        background-position: top 60% center;
     }  
 
     /* Font coloring for the menu options */
     .introBodyHeader a {
-        color: rgb(255, 255, 255);
-        text-shadow: 2px 3px black;
+        color: rgb(103, 119, 211);
+        text-shadow: 2px 3px 3px rgb(3, 10, 49);
     }
 
     .mainTitleHeader h1 {
         text-align: center;
-
     }
 }
 
@@ -164,6 +162,7 @@ body {
 
     /* Styling for the main title <a> element to remove all visible color alterations for the title "Kyle Maillet" and scale its size */
     .mainTitleHeader a, .mainTitleHeader a:hover, .mainTitleHeader a:active, .mainTitleHeader a:visited {
+        margin-top: 10%;
         color: inherit;
         text-decoration: none;
         font-size: 3rem;
@@ -180,24 +179,20 @@ body {
         margin-right: 25vw;
     }   
 
-    /* Generic styling for H2 within Body */
-    .introBodyHeader1 h2 {
+    /* Generic styling for Fullstack heading (H2) within Body */
+    .fullstackHeader h2 {
         text-align: center;
-        background-image: url(../images/bg_image.jpg);
-        background-position: top 50% center;
     }
 
-    /* Generic styling for H2 within Body */
-    .introBodyHeader2 h2 {
+    /* Generic styling for Tutoring heading (H2) within Body */
+    .tutoringHeader h2 {
         text-align: center;
-        background-image: url(../images/bg_image.jpg);
-        background-position: top 60% center;
     }  
 
     /* Font coloring for the menu options */
     .introBodyHeader a {
-        color: rgb(255, 255, 255);
-        text-shadow: 2px 3px black;
+        color: rgb(103, 119, 211);
+        text-shadow: 2px 3px 3px black;
     }
 
     .mainTitleHeader {
@@ -206,6 +201,5 @@ body {
     
     .mainTitleHeader h1 {
         text-align: center;
-        vertical-align: middle;
     }
 }
