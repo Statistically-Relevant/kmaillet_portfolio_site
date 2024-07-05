@@ -76,11 +76,7 @@ body {
     bottom: 0%
 }
 
-/* Generic Main Title Background Styling */
-.mainTitleHeader {
-    background-image: url(../images/bg_image.jpg);
-    background-position: top 25% center;
-}
+
 
 
 
@@ -88,6 +84,12 @@ body {
 
 /* Desktop Devices */
 @media screen and (min-width: 1200px) {
+
+    /* Generic Main Title Background Styling */
+    .mainTitleHeader {
+        background-image: url(../images/bg_image.jpg);
+        background-position: top 25% center;
+    }
 
     /* Title Header 1 within Body */
     .introBodyHeader h1 {
@@ -147,6 +149,12 @@ body {
 
 /* Mobile Devices */
 @media screen and (max-width: 1200px) {
+
+    /* Generic Main Title Background Styling */
+    .mainTitleHeader {
+        background-image: url(../images/bg_image.jpg);
+        background-position: top 50% center;
+    }
 
     /* Title Header 1 within Body */
     .introBodyHeader h1 {
