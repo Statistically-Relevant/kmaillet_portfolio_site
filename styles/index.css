@@ -37,12 +37,15 @@
 }
 
 
+
+
+
+
 /* 
 
 Generic Settings 
 
 */
-
 
 /* Bacground color gradiant and set sizing for full viewport as well as maintain so that the bg scrolls with the user */
 body {
@@ -111,6 +114,7 @@ body {
         margin: 6rem;
     }
 
+    /* Styles the h2 background-color to not take up the whole screen */
     .introBodyHeader h2 {
         margin-left: 25vw;
         margin-right: 25vw;
@@ -148,6 +152,7 @@ body {
     .spacerDiv {
         margin: 6em;
     }
+
     /* Styles the h2 background-color to not take up the whole screen */
     .introBodyHeader h2 {
         margin-left: 25vw;
