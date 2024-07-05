@@ -166,7 +166,7 @@ body {
 
     /* Spacer for between links */
     .spacerDiv {
-        margin: 18rem;
+        margin: 6rem;
     }
 
     /* Styles the h2 background-color to not take up the whole screen */
@@ -193,6 +193,10 @@ body {
     .introBodyHeader a {
         color: rgb(255, 255, 255);
         text-shadow: 2px 3px black;
+    }
+
+    .mainTitleHeader {
+        height: 25vh;
     }
     
 }
