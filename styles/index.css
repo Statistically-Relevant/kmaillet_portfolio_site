@@ -89,6 +89,7 @@ body {
     .mainTitleHeader {
         background-image: url(../images/bg_image.jpg);
         background-position: top 25% center;
+        background-repeat: no-repeat;
     }
 
     /* Title Header 1 within Body */
