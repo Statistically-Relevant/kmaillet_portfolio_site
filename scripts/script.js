@@ -2,7 +2,9 @@
 
 TODO 
 
-Study: Mixins, Prototypes, First-class functions, event-driven paradigm, DOM (Document Object Model), REGEX, AJAX, jQuery
+Study: Mixins, Prototypes, event-driven paradigm, REGEX, AJAX, jQuery
 
 
 */
+
+alert("hello");

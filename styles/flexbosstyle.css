@@ -1,0 +1,20 @@
+.prettyMuchTheWholePage {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.firstElement {
+    background-color: red;
+    flex: 1;
+}
+
+.secondElement {
+    background-color: blue;
+    flex: 1;
+}
+
+.thirdElement {
+    background-color: green;
+    flex: 1;
+}
