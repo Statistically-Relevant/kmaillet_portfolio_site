@@ -1,20 +1,24 @@
 .prettyMuchTheWholePage {
     display: flex;
-    flex-direction: row;
-
 }
 
 .firstElement {
     background-color: red;
     flex: 1;
+    display: flex;
+    justify-content: space-between;
 }
 
 .secondElement {
+    display: flex;
+    justify-content: space-between;
     background-color: blue;
     flex: 1;
 }
 
 .thirdElement {
+    display: flex;
+    justify-content: space-between;
     background-color: green;
     flex: 1;
 }
