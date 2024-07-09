@@ -38,6 +38,7 @@ At-definitions
         font-family: 'Noto Sans Glagolitic';
     }
 }
+
 .headerTitle {
     text-align: center;
 }
@@ -45,4 +46,5 @@ At-definitions
     margin-top: 2rem;
     display: flex;
     justify-content: space-evenly;
+    flex-direction: row;
 }
