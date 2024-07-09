@@ -14,18 +14,19 @@ body {
 At-definitions
 
 */
-
 @font-face {
-    font-family: 'Noto Sans Glagolitic';
-    src: url('https://fonts.googleapis.com/css2?family=Noto+Sans+Glagolitic&display=swap');
+    font-family: 'BaskervilleSC';
+    src: url(../fonts/BaskervvilleSC-Regular.ttf) format(truetype);
 }
-
 /* Desktop and wide devices */
 @media screen and (min-width: 1400px)
 {
     .headerTitle {
         font-size: 7rem;
-        font-family: 'Noto Sans Glagolitic';
+        font-family: 'BaskervilleSC';
+    }
+    .headerMenu {
+        font-size: 2rem;
     }
 }
 
@@ -35,7 +36,7 @@ At-definitions
     
     .headerTitle {
         font-size: 5rem;
-        font-family: 'Noto Sans Glagolitic';
+        font-family: 'BaskervilleSC';
     }
 }
 
@@ -43,7 +44,18 @@ At-definitions
     text-align: center;
 }
 .headerMenu {
-    margin-top: 2rem;
+    margin-top: 1rem;
     display: flex;
     justify-content: space-evenly;
+    background-color: aliceblue;
+}
+
+.headerMenu a:visited, .headerMenu a:link {
+    color: blue;
+}
+
+.headerMenu a:hover {
+    color:darkblue;
+    font-weight: bold;
+    font-size: 1.5rem;
 }
