@@ -43,6 +43,7 @@ At-definitions
 .headerTitle {
     text-align: center;
 }
+
 .headerMenu {
     margin-top: 1rem;
     display: flex;
@@ -57,5 +58,5 @@ At-definitions
 .headerMenu a:hover {
     color:darkblue;
     font-weight: bold;
-    font-size: 1.5rem;
+    font-size: 2.5rem;
 }
