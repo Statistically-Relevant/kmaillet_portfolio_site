@@ -9,7 +9,6 @@ body {
     font-family: Arial, sans-serif;
 }
 
-
 /*
 
 At-definitions
@@ -22,7 +21,7 @@ At-definitions
 }
 
 /* Desktop and wide devices */
-@media screen and (min-width: 1200)
+@media screen and (min-width: 1200px)
 {
     .headerTitle {
         font-size: 7rem;
@@ -31,8 +30,9 @@ At-definitions
 }
 
 /* Mobile and narrow devices */
-@media screen and (min-width: 1200)
+@media screen and (max-width: 1200px)
 {
+    
     .headerTitle {
         font-size: 7rem;
         font-family: 'Noto Sans Glagolitic';
