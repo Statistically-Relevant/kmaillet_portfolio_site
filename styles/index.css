@@ -21,7 +21,7 @@ At-definitions
 }
 
 /* Desktop and wide devices */
-@media screen and (min-width: 1200px)
+@media screen and (min-width: 1400px)
 {
     .headerTitle {
         font-size: 7rem;
@@ -30,7 +30,7 @@ At-definitions
 }
 
 /* Mobile and narrow devices */
-@media screen and (max-width: 1200px)
+@media screen and (max-width: 1400px)
 {
     
     .headerTitle {
