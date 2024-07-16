@@ -1,0 +1,93 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+    background-color: #afc4d6;
+    color: #333;
+    text-align: left;
+}
+
+@font-face {
+    font-family: 'BaskervilleSC';
+    src: url(../fonts/BaskervvilleSC-Regular.ttf) format('truetype');
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+h1 {
+    font-size: 5rem;
+    margin: 20px 0;
+    color: #333;
+}
+
+h2 {
+    font-size: 2rem;
+    margin: 10px 0;
+    color: #333;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.automationClass {
+    background-color: #000;
+    color: #f0f8ff;
+    margin-bottom: 20px;
+    padding: 20px;
+    width: 100%;
+    max-width: 800px;
+    border-radius: 8px;
+    font-size: 2rem;
+}
+
+.automationClass h2 {
+    margin-top: 0;
+}
+
+body a, body a:visited, body a:hover {
+    color: #333;
+}
+
+/* Desktop and wide devices */
+@media screen and (min-width: 1400px) {
+    h1 {
+        font-size: 7rem;
+        font-family: 'BaskervilleSC';
+    }
+    .automationClass {
+        font-size: 2rem;
+    }
+}
+
+/* Mobile and narrow devices */
+@media screen and (max-width: 1200px) {
+    h1 {
+        font-size: 5rem;
+        font-family: 'BaskervilleSC';
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    h1 {
+        font-size: 5rem;
+        font-family: 'BaskervilleSC';
+    }
+}
+
+
+.toggledContent {
+    font-size: 1.5rem;
+}
