@@ -86,3 +86,11 @@ body a, body a:visited, body a:hover {
         font-family: 'BaskervilleSC';
     }
 }
+
+body p, body ul {
+    font-size: 1.5rem;
+}
+
+body ul {
+    margin-left: 10px;
+}
