@@ -9,7 +9,7 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     padding: 20px;
-    background-color: #f4f4f4;
+    background-color: #afc4d6;
     color: #333;
     text-align: left;
 }
@@ -42,7 +42,7 @@ h2 {
     padding: 20px;
 }
 
-.geometryClass, .linearClass, .arithmaticClass {
+.solutionClass {
     background-color: #000;
     color: #f0f8ff;
     margin-bottom: 20px;
@@ -53,7 +53,7 @@ h2 {
     font-size: 2rem;
 }
 
-.geometryClass h2, .linearClass h2, .arithmaticClass h2 {
+.solutionClass h2 {
     margin-top: 0;
 }
 
@@ -67,7 +67,7 @@ body a, body a:visited, body a:hover {
         font-size: 7rem;
         font-family: 'BaskervilleSC';
     }
-    .geometryClass, .linearClass, .arithmaticClass {
+    .solutionClass {
         font-size: 2rem;
     }
 }
