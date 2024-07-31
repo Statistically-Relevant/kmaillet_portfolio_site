@@ -7,47 +7,47 @@ const toggleContent = (buttonID, contentID, contentHTML) => {
 
 const geometryContent = `
     <div class="toggledContent">
-        <p>Geometry is essential for various practical applications in construction and design. Understanding geometric principles helps in accurate measurements and calculations.</p>
+        <p>My expertise in geometry helps solve various practical problems with precision and accuracy. My skills include:</p>
         <ul>
-            <li><strong>Measurement and Scaling:</strong> Accurate measurement and scaling of blueprints are crucial for construction.</li>
-            <li><strong>Angles:</strong> Understanding and calculating angles are important for construction and design.</li>
-            <li><strong>Shapes:</strong> Geometric shapes and their properties are fundamental in design.</li>
-            <li><strong>Volume and Area:</strong> Calculating volume and area is necessary for materials estimation.</li>
-            <li><strong>Spatial Reasoning:</strong> Spatial reasoning aids in effective layout planning.</li>
-            <li><strong>3D Modeling:</strong> 3D modeling is used for structural design.</li>
-            <li><strong>Trigonometry:</strong> Trigonometry is essential for calculating roof pitch and elevations.</li>
-            <li><strong>Coordinate Geometry:</strong> Coordinate geometry is used in land surveying.</li>
-            <li><strong>Pythagorean Theorem:</strong> Application of the Pythagorean theorem in construction ensures accuracy.</li>
-            <li><strong>Symmetry and Asymmetry:</strong> Symmetry and asymmetry are important in architectural design.</li>
+            <li><strong>Measurement and Scaling:</strong> I ensure accurate measurement and scaling for various projects.</li>
+            <li><strong>Angles:</strong> I understand and calculate angles for precise design and analysis.</li>
+            <li><strong>Shapes:</strong> I use geometric shapes and their properties to inform design decisions.</li>
+            <li><strong>Volume and Area:</strong> I calculate volume and area for material estimation and space planning.</li>
+            <li><strong>Spatial Reasoning:</strong> I employ spatial reasoning for effective layout planning.</li>
+            <li><strong>3D Modeling:</strong> I create 3D models for visualization and design validation.</li>
+            <li><strong>Trigonometry:</strong> I apply trigonometry for complex calculations involving angles and distances.</li>
+            <li><strong>Coordinate Geometry:</strong> I use coordinate geometry for precise positioning and mapping.</li>
+            <li><strong>Pythagorean Theorem:</strong> I apply the Pythagorean theorem to ensure accuracy in various calculations.</li>
+            <li><strong>Symmetry and Asymmetry:</strong> I consider symmetry and asymmetry in design for aesthetic and functional balance.</li>
         </ul>
     </div>
 `;
 
 const linearContent = `
     <div class="toggledContent">
-        <p>My understanding of linear algebra allows me to accurately represent shapes, their rotation, translation, and transformation in 1, 2, 3, and more dimensional space.</p>
+        <p>My proficiency in linear algebra enables me to handle transformations and representations in various dimensions. My skills include:</p>
         <ul>
-            <li><strong>Translation:</strong> Projects must be dynamic and able to adapt to change. Linear translation allows movement from one area to another without losing any information.</li>
-            <li><strong>Rotation:</strong> To remain dynamic and adaptable one must be able to view and rotate objects in any direction without losing details or information about the object.</li>
-            <li><strong>Shear:</strong> When encountering unexpected slopes, angles, or offsets it is important to understand how to offset the design using linear shearing to distort the design into the required shape.</li>
+            <li><strong>Translation:</strong> I manage dynamic translation of objects while maintaining their properties.</li>
+            <li><strong>Rotation:</strong> I perform rotations to view objects from different angles without losing detail.</li>
+            <li><strong>Shear:</strong> I use shearing techniques to adjust designs for unexpected slopes or offsets.</li>
         </ul>
     </div>
 `;
 
 const arithmeticContent = `
     <div class="toggledContent">
-        <p>Arithmetic is the foundation of all calculations in construction. Precise arithmetic skills are vital for ensuring accuracy in measurements and estimates.</p>
+        <p>My strong foundation in arithmetic ensures precise calculations and estimates. My skills include:</p>
         <ul>
-            <li><strong>Basic Operations:</strong> Addition, subtraction, multiplication, and division are used in every aspect of construction.</li>
-            <li><strong>Fractions and Decimals:</strong> Understanding fractions and decimals is crucial for precise measurements.</li>
-            <li><strong>Percentages:</strong> Calculating percentages is necessary for material estimation and cost calculations.</li>
-            <li><strong>Ratios and Proportions:</strong> Ratios and proportions are used to maintain the correct scale and relationships between different elements.</li>
-            <li><strong>Estimations:</strong> Estimation skills help in making quick, yet reasonably accurate calculations on-site.</li>
-            <li><strong>Units and Conversions:</strong> Converting between different units of measurement is essential for accurate planning and execution.</li>
+            <li><strong>Basic Operations:</strong> I apply addition, subtraction, multiplication, and division in various contexts.</li>
+            <li><strong>Fractions and Decimals:</strong> I use fractions and decimals for accurate measurements.</li>
+            <li><strong>Percentages:</strong> I calculate percentages for material estimation and cost analysis.</li>
+            <li><strong>Ratios and Proportions:</strong> I maintain correct ratios and proportions for balanced designs.</li>
+            <li><strong>Estimations:</strong> I make quick and accurate estimations for on-the-spot decision making.</li>
+            <li><strong>Units and Conversions:</strong> I convert between units of measurement for precise planning and execution.</li>
         </ul>
     </div>
 `;
 
 toggleContent('geometryID', 'contentGeometry', geometryContent);
 toggleContent('linearID', 'contentLinear', linearContent);
-toggleContent('arithmaticID', 'contentArithmatic', arithmeticContent);
+toggleContent('arithmeticID', 'contentArithmetic', arithmeticContent);
